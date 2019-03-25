@@ -7,7 +7,7 @@
 
 ## Overview
 
-This script creates a trusted CA on your Mac and signs new trusted certificates with it. These are modern certificates that will pass modern browsers' heightened requirements.
+This script creates a trusted CA on your Mac and signs new trusted certificates with it. These are modern certificates that will pass modern browsers' heightened requirements. This is similar in function to [mkcert](https://github.com/FiloSottile/mkcert) but more easily configured using [OpenSSL .cnf files](https://github.com/openssl/openssl/blob/master/apps/openssl.cnf).
 
 ### Usage
 Run `bash gen-certs.sh` and you'll be walked through the rest. Mac will ask for your password to add the CA to your keychain.
