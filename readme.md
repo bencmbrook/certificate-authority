@@ -2,6 +2,7 @@
 <h3 align="center">🔒        💻</h3> 
 <p align="center">
   <strong>Creates a trusted certificate authority on your Mac for dev mode</strong><br /><br />
+  <i>One certificate to sign them all</i>
 </p>
 
 
