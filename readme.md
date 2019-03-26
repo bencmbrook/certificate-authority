@@ -1,7 +1,7 @@
 <h1 align="center">Certificate Authority Generator for OS X</h1>
 <h3 align="center">🔒        💻</h3> 
 <p align="center">
-  <i>One certificate to sign them all</i><br>
+  <i>One certificate to sign them all</i><br><br>
   <strong>Creates a trusted certificate authority on your Mac for dev mode</strong><br /><br />
 
 </p>
