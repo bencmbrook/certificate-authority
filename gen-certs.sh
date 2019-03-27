@@ -17,8 +17,8 @@ while true; do
 done
 
 echo "Generating certificate for Server 1..."
-openssl req -config server-1.cnf -newkey rsa:2048 -sha256 -nodes -out certs/server-1-csr.pem -outform PEM
-openssl ca -config ca.cnf -policy signing_policy -extensions signing_req -out certs/server-1-crt.pem -infiles certs/server-1-csr.pem
+openssl req -batch -config server-1.cnf -newkey rsa:2048 -sha256 -nodes -out certs/server-1-csr.pem -outform PEM
+openssl ca -batch -config ca.cnf -policy signing_policy -extensions signing_req -out certs/server-1-crt.pem -infiles certs/server-1-csr.pem
 
 echo "Verifying cert..."
 openssl verify -CAfile certs/ca-crt.pem certs/server-1-crt.pem
